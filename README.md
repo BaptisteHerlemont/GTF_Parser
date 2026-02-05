@@ -1,15 +1,15 @@
-# GTF_Parsing
+# GTF_Parser
 
 ## Get The Code
 
 ```bash
-git clone https://github.com/BaptisteHerlemont/GTF_Parsing.git
-cd GTF_Parsing
+git clone https://github.com/BaptisteHerlemont/GTF_Parser.git
+cd GTF_Parser
 ```
 
 ## Description
 
-This script parses a GTF file and annotates genomic positions from an Excel file. For each position, it determines whether it falls inside a gene and which feature it overlaps (exon, intron, CDS, UTR, codons).
+This script reads a GTF file and an Excel sheet of genomic positions, then annotates each position with its gene context. It reports whether the position is inside a gene and which feature it overlaps (exon, intron, CDS, UTR, or codons). The output is the original Excel file with three added annotation columns.
 
 ## Quick Example 
 
